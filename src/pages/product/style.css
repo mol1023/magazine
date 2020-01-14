@@ -1,0 +1,686 @@
+
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+
+.product-info{
+    max-width: 1370px;
+    max-height: 900px;
+    background: #ffffff;
+}
+
+.product-info .dashboard{
+    background: #2145AC;
+    max-width: 95.62px;
+    height: 900px;
+    position: relative;
+    float: left;
+}
+
+.product-info  .dashboard img{
+    width: 60%;
+    position: relative;
+    left: 18.5%;
+    top: 20px;
+}
+
+.product-info .dashboard p{
+    color: white;
+    line-height: 24px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    font-family: 'Montserrat';
+}
+
+.product-info .dashboard .primeiraparte i{
+    color: white;
+    position: relative;
+    left: 38%;
+    top: 60px;
+    font-size: 20px;
+}
+
+.product-info .dashboard .segundaparte i{
+    color: white;
+    position: relative;
+    left: 38%;
+    top: 90px;
+    font-size: 20px;
+}
+
+.product-info .dashboard .terceiraparte i{
+    color: white;
+    position: relative;
+    left: 37%;
+    top: 120px;
+    font-size: 20px;
+}
+
+.product-info .dashboard .quartaparte i{
+    color: white;
+    position: relative;
+    left: 41.5%;
+    top: 450px;
+    font-size: 20px;
+}
+
+.product-info .firstblock{
+    background: #E6EAF2;
+    max-width: 47%;
+    height: 900px;/*657*/
+    position: relative;
+    float: left;
+}
+.product-info .firstblock h1{
+    font-family: 'Montserrat';
+    position: relative;
+    top: 60px;
+    font-weight: bold;
+    font-size: 40px;
+    left: 7.5%;
+}
+
+.product-info .firstblock p{
+    font-family: 'Montserrat';
+    color: #AEB0C6;
+    position: relative;
+    top: 80px;
+    left: 7.5%;
+    font-size: 20px;
+    max-width: 80%;
+}
+
+.product-info .firstblock img{
+    width: 45%;
+}
+
+.product-info .firstblock .festival{
+    position: relative;
+    left: 37px;
+    top: 6%;
+}
+
+.product-info .firstblock .festival .pu{
+    position: relative;
+    color: #17232C;
+    top: -50px;
+    font-size: 17px;
+    font-weight: bold;
+    left: 47.8px;
+}
+
+.product-info .firstblock .festival .pd{
+    position: relative;
+    color: #AEB0C6;
+    top: -55px;
+    left: 47.8px;
+    font-size: 13.5px;
+}
+
+.product-info .firstblock .vida{
+    position: relative;
+    left: 310px;
+    top: -40.5%;
+    cursor: pointer;   
+}
+
+.product-info .firstblock .vida .pum{
+    position: relative;
+    color: #17232C;
+    top: -50px;
+    font-size: 17px;
+    font-weight: bold;
+    left: 49px;
+    width: 80px;
+}
+
+.product-info .firstblock .vida .pdois{
+    position: relative;
+    color: #AEB0C6;
+    top: -55px;
+    left: 49px;
+    width: 80px;
+    font-size: 13.5px;
+}
+
+.product-info .firstblock .imagemBrilha{
+    position: relative;
+    left: 35px;
+    top: -450px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.product-info .firstblock .imagemAmarelo{
+    position: relative;
+    left: 310px;
+    top: -800px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.product-info .firstblock .p1{
+    position: relative;
+    color: #17232C;
+    top: -50px;
+    font-size: 17px;
+    font-weight: bold;
+    left: 47.8px;
+}
+
+.product-info .firstblock .p2{
+    position: relative;
+    color: #AEB0C6;
+    top: -55px;
+    left: 49px;
+    font-size: 13.5px;
+}
+
+.product-info .secondblock{
+    background: #ffffff;
+    width: 617px;
+    height: 900px;/*657*/
+    position: relative;
+    float: left;
+}
+
+.product-info .forms input{
+    background: #E6EAF2;
+    border: 0px;
+    width: 480px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    font-family: 'Montserrat';
+    top: 80px;
+    border-radius: 10px 10px;
+}
+
+.product-info .secondblock h1{
+    color: #B2CACA;
+    position: relative;
+    left: 40px;
+    font-family: 'Montserrat';
+    top: 95px;
+    width: 400px;
+}
+
+.product-info .secondblock i{
+    position: relative;
+    top: -25px;
+    left: 550px;
+    font-size: 24px;
+}
+
+.product-info .secondblock button{
+    font-family: 'Montserrat';
+    font-size: 21px;
+    color: #AEB0C6;
+    font-weight: bold;
+    background: #ffffff;
+    width: 180px;
+    height: 40px;
+    border: none;
+    box-shadow: 0px 10px 40px #AEB0C6;
+    position: relative;
+    top: 110px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.product-info .secondblock button:focus{
+    color: #17232C;
+}
+
+.product-info .secondblock .ab1 #estrela1{
+    position: relative;
+    top: -3px;
+    left: 118px;
+    font-size: 10px;
+    color: #F7CE23;
+}
+
+.product-info .secondblock .ab2 #estrela2{
+    position: relative;
+    top: -148px;
+    left: 118px;
+    font-size: 10px;
+    color: #F7CE23;
+}
+
+.product-info .secondblock .ab3 #estrela3{
+    position: relative;
+    top: -3px;
+    left: 118px;
+    font-size: 10px;
+    color: #F7CE23;
+}
+
+.product-info .secondblock .ab4 #estrela4{
+    position: relative;
+    top: -148px;
+    left: 85px;
+    font-size: 10px;
+    color: #F7CE23;
+}
+/*/////////////////////////////////////*/
+.product-info .secondblock .ab1 #salvo1{
+    position: relative;
+    top: -35px;
+}
+
+.product-info .secondblock .ab2 #salvo2{
+    position: relative;
+    top: -180px;
+}
+
+.product-info .secondblock .ab3 #salvo3{
+    position: relative;
+    top: -35px;
+}
+
+.product-info .secondblock .ab4 #salvo4{
+    position: relative;
+    top: -180px;
+}
+
+/*////////////////////////*/
+.product-info .secondblock img{
+    width: 21.5%;
+    position: relative;
+    left: 20px;
+}
+
+.product-info .secondblock .ab1 img{
+    position: relative;
+    top: 150px;
+}
+
+.product-info .secondblock .ab2 img{
+    position: relative;
+    top: 5px;
+}
+
+.product-info .secondblock .ab3 img{
+    position: relative;
+    top: 150px;
+}
+
+
+.product-info .secondblock .ab4 img{
+    position: relative;
+    top: 5px;
+}
+/*////////////////////////////////////*/
+
+.product-info .secondblock .ab1 strong{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    top: 210px;
+    left: 145px;
+    font-size: 20px;
+}
+
+.product-info .secondblock .ab2 strong{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    top: 63px;
+    left: 145px;
+    font-size: 20px;
+}
+
+.product-info .secondblock .ab3 strong{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    top: 210px;
+    left: 145px;
+    font-size: 20px;
+}
+
+.product-info .secondblock .ab4 strong{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    top: 63px;
+    left: 145px;
+    font-size: 20px;
+}
+/*////////////VALORES////////////////*/
+.product-info .secondblock .ab1 .valor{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: 90px;
+    left: 470px;
+    font-weight: bold;
+}
+
+.product-info .secondblock .ab2 .valor{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: -60px;
+    left: 470px;
+    font-weight: bold;
+}
+
+.product-info .secondblock .ab3 .valor{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: 90px;
+    left: 470px;
+    font-weight: bold;
+}
+
+.product-info .secondblock .ab4 .valor{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: -60px;
+    left: 470px;
+    font-weight: bold;
+}
+/*///////////////////////////////////*/
+
+.product-info .secondblock .ab1 .nota{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: 63px;
+    left: 150px;
+    font-weight: bold;
+}
+
+.product-info .secondblock .ab2 .nota{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: -83px;
+    left: 150px;
+    font-weight: bold;
+}
+
+.product-info .secondblock .ab3 .nota{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: 63px;
+    left: 150px;
+    font-weight: bold;
+}
+
+.product-info .secondblock .ab4 .nota{
+    position: relative;
+    color: #17232C;
+    font-family: 'Montserrat';
+    width: 20px;
+    top: -83px;
+    left: 150px;
+    font-weight: bold;
+}
+/*/////data////////////////*/
+
+.product-info .secondblock .ab1 .dia{
+    position: relative;
+    color: #AEB0C6;
+    font-family: 'Montserrat';
+    width: 150px;
+    font-size: 13px;
+    top: -10px;
+    left: 145px;
+}
+
+.product-info .secondblock .ab2 .dia{
+    position: relative;
+    color: #AEB0C6;
+    font-family: 'Montserrat';
+    width: 150px;
+    font-size: 13px;
+    top: -160px;
+    left: 145px;
+}
+
+.product-info .secondblock .ab3 .dia{
+    position: relative;
+    color: #AEB0C6;
+    font-family: 'Montserrat';
+    width: 150px;
+    font-size: 13px;
+    top: -10px;
+    left: 145px;
+}
+
+.product-info .secondblock .ab4 .dia{
+    position: relative;
+    color: #AEB0C6;
+    font-family: 'Montserrat';
+    width: 150px;
+    font-size: 13px;
+    top: -160px;
+    left: 145px;
+}
+/*/////icones////////////////*/
+.product-info .secondblock .ab4 i{
+    color: black;
+    width:50px;
+}
+
+  /* Modal Content/Box */
+.product-info  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+  
+  
+.product-info .bg-modal{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;/*horizontalmente*/
+    align-items: center;
+    display: none;
+}
+
+.product-info .bg-modal .modal-content{
+    width: 420px;
+    height: 520px;
+    left: -150px;
+    top: -100px;
+    background-color: white;
+    border-radius: 12px 12px 0px 0px;
+}
+
+
+.product-info .bg-modal .modal-content .commentsection{
+    width: 330px;
+    height: 470.1px;
+    background-color: #E6EAF2;
+    position: relative;
+    left: 398.5px;
+    top: -651.6px;
+    display: none;
+}
+
+
+.product-info .bg-modal .modal-content .commentsection p{
+    width: 60px;
+    height: 10px;
+    position: relative;
+    color: #AEB0C6;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    top: 30px;
+    left: 15px;
+}
+
+.product-info .bg-modal .modal-content .commentsection input{
+    background: #FFFFFF;
+    border: 0px;
+    width: 260px;
+    height: 40px;
+    position: relative;
+    left: -45px;
+    font-family: 'Montserrat';
+    top: 395px;
+    border-radius: 10px 10px;
+}
+
+.product-info .bg-modal .modal-content .commentsection #sendmagazine{
+    position: relative;
+    color: #2145AC;
+    top: 405px;
+    right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.product-info .bg-modal #comments{
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 350px;
+    top: -365px;
+    color: #AEB0C6;
+    cursor: pointer;
+}
+
+.product-info .bg-modal #sharemagazine{
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    border-style: solid;
+    position: relative;
+    left: 70px;
+    top: -105px;
+    color: #AEB0C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border-width: 2px;
+}
+
+.product-info .bg-modal #savebook{
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    border-style: solid;
+    position: relative;
+    left: 165px;
+    top: -140px;
+    color: #AEB0C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border-width: 2px;
+}
+
+.product-info .bg-modal #starmagazine{
+    font-size: 15px;
+    position: relative;
+    left: 270px;
+    top: -175px;
+    color: #FFFFFF;
+    background-color: #B2CACA;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 3px 10px;
+    cursor: pointer;
+}
+
+.product-info .bg-modal .modal-content header{
+    position: relative;
+    font-size: 25px;
+    color: #17232C;
+    font-family: 'Montserrat';
+    top: -90px;
+}
+
+.product-info .bg-modal .modal-content .paragrafo{
+    position: relative;
+    font-size: 15px;
+    color:  #AEB0C6;
+    font-family: 'Montserrat';
+    top: -90px;
+}
+
+.product-info .bg-modal .modal-content .fechamento{
+    position: relative;
+    font-size: 50px;
+    color:  #17232C;
+    font-family: 'Montserrat';
+    top: -520px;
+    left: -12px;
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.product-info .bg-modal .modal-content .fechamento p{
+    position: relative;
+    top: 5.5px;
+    left: 0.375px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.product-info .bg-modal .modal-content span{
+    position: relative;
+    font-size: 15px;
+    color:  #AEB0C6;
+    font-family: 'Montserrat';
+    top: -90px;
+}
+
+.product-info .bg-modal .back img{
+    width: 506px;
+    height: 360px;
+    position: relative;
+    border-radius: 4px;
+    top: -63px;
+    left: -63.5px;
+}
+/*
+.product-info .blockWhite .produtosao .ab2{
+    display: none;
+}*/
+
+
+
+
+
+
