@@ -1,2 +1,0 @@
-# magazine
-reactjs application 
